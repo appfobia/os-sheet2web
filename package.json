@@ -1,0 +1,22 @@
+{
+  "name": "os-sheet2web",
+  "version": "0.0.1",
+  "description": "Open source Sheet to Web Site Platform",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/appfobia/os-sheet2web.git"
+  },
+  "keywords": [
+    "sheet2web"
+  ],
+  "author": "Soham Malakar <soham.malakar@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/appfobia/os-sheet2web/issues"
+  },
+  "homepage": "https://github.com/appfobia/os-sheet2web#readme"
+}
