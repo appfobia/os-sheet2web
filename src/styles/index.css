@@ -1,0 +1,144 @@
+/*
+].main-con {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+*/
+
+
+
+/*
+ * CSS for InputBlock 
+*/
+
+.round-input *{
+    border-radius: 10rem;
+}
+
+.round-input input {
+    border-top:1px solid rgba(195, 209, 223) !important;
+    border-right:1px solid rgba(195, 209, 223) !important;
+    border-bottom:1px solid rgba(195, 209, 223) !important;
+}
+
+/*
+ * CSS for Data block
+*/
+
+.data-block {
+    padding-left:0px;
+    padding-right:0px;
+}
+
+.data-block .card {
+    border: 0px;
+    padding: 10px;
+    background: transparent;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.data-block .card a {
+    color:inherit;
+}
+.data-block .card .card-img {
+    width: 100%;
+    height: 15vw;
+    min-width:0px;
+    min-height:200px;
+    object-fit: cover;
+}
+
+.data-block .card .card-img-overlay {
+    top:10px;
+    left:10px;
+    right:10px;
+    bottom:10px;
+    padding:0.5rem !important;
+}
+
+/* Latest CSS for Cards */
+
+
+.data-block .card .card-attributes {
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:100%;
+    height:100%;
+    padding:0.5rem;
+    text-shadow: 1px 1px 0 rgba(0,0,0,.35);
+}
+
+.data-block .card .dimmer {
+    position: absolute;
+    top:10px;
+    left:10px;
+    right:10px;
+    bottom:10px;
+    background-color: rgba(0,0,0,.15);
+    border-radius: 4px;
+}
+.data-block .card .card-center-text {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    text-align: center;
+    width: 100%;
+    padding-left: 1.8em;
+    padding-right: 1.8em;
+}
+
+.data-block .card .card-attributes .card-ele {
+    color: #fff;
+    position: absolute;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: .75em;
+    margin-bottom: .75em;
+    backdrop-filter: blur(5px);
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width: 50%;
+    overflow: hidden;
+}
+.data-block .card .card-attributes .top-left {
+    top: 0;
+    left: 0;
+    text-align: left;
+}
+.data-block .card .card-attributes .top-right {
+    top: 0;
+    right: 0;
+    text-align: right;
+}
+.data-block .card .card-attributes .bottom-right {
+    bottom: 0;
+    right: 0;
+    text-align: right;
+}
+.data-block .card .card-attributes .bottom-left {
+    bottom: 0;
+    left: 0;
+    text-align: left;
+}
+
+
+/* earlier card version CSS*/
+
+.data-block .mycards {
+    padding: 0;
+    margin: 0;
+    display: block;
+    position: absolute;
+}
+
+.data-block .mycard {
+    display: block;
+    position: absolute;
+}

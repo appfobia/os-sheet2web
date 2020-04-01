@@ -1,0 +1,19 @@
+/*
+ * CSS for Filter block
+*/
+
+.filter ul li {
+    padding:0px 3px 3px 0px;
+    letter-spacing: 1px;
+    font-size: .85em;
+    word-spacing: 2px;
+}
+
+.filter a {
+    background-color: transparent !important;
+    color:#000 !important;
+}
+
+.filter a:hover {
+    background-color: rgb(233,236,240) !important;
+}

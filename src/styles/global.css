@@ -1,0 +1,44 @@
+html, body, input, textarea, keygen, select, button {
+    font-family: nunito,roboto,proxima-nova,proxima nova,sans-serif;
+}
+
+/*
+ * Removing default behavior of Bootstrap input:focus
+*/
+textarea:focus, 
+textarea.form-control:focus, 
+input.form-control:focus, 
+input[type=text]:focus, 
+input[type=password]:focus, 
+input[type=email]:focus, 
+input[type=number]:focus, 
+[type=text].form-control:focus, 
+[type=password].form-control:focus, 
+[type=email].form-control:focus, 
+[type=tel].form-control:focus, 
+[contenteditable].form-control:focus {
+    outline: none !important;
+    border: none;
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+/*
+ * SVG Icon CSS
+*/
+.svg-icon {
+    width: 1em;
+    height: 1em;
+}
+  
+.svg-icon path,
+.svg-icon polygon,
+.svg-icon rect {
+    fill: #4691f6;
+}
+  
+.svg-icon circle {
+    stroke: #4691f6;
+    stroke-width: 1;
+}
